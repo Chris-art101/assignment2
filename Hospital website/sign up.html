@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sign up</title>
+    <link rel="stylesheet" href="CSS/Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="">Main-container</a></li>
+            <li><a href="">Form-container</a></li>
+            <li><a href="">Form-group</a></li>
+            <li><a href="">Table-container</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="main-container">
+    <div class="form-container">
+        <h2>Register form</h2>
+        <form action="">
+        <div class="form-group">
+            <label for="name">Full name</label>
+            <input type="text" id="name" id="name" required>
+
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <div class="form-group">
+            <label for="confirm-password">Confirm-password</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+        </div>
+        <div class="form-group">
+            <label>Gender</label>
+            <div class="radio-group">
+                <label><input type="radio" name="gender" value="male" required>Male</label>
+                <label><input type="radio" name="gender" value="female" required>female</label>
+                <label><input type="radio" name="gender" value="male" required>Other</label>
+            </div>
+            
+        </div>
+        <div class="form-group">
+            <label for="county">County</label>
+            <select name="county" id="county">
+                <option value="nairobi">Nairobi</option>
+                <option value="mombasa">Mombasa</option>
+                <option value="kisumu">Kisumu</option>
+                <option value="eldoret">Eldoret</option>
+                <option value="nakuru">Nakuru</option>
+            </select>
+
+        </div>
+        <div class="form-group">
+            <button type="submit"><i class="fa-solid fa-user-plus"></i>Register</button>
+        </div>
+        </form>
+        <div class="note">
+            Already have an account? <a href="">login here</a>
+            
+        </div>
+        
+        </div>
+    <div class="table-container">
+        <h2>Table with registered users</h2>
+        <table>
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Gender</th>
+                <th>county</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>doe@gmail.com</td>
+                <td>Male</td>
+                <td>Nairobi</td>
+            </tr>
+            <tr>
+                <td>Alice Njoki</td>
+                <td>njoki@gmail.com</td>
+                <td>Female</td>
+                <td>Mombasa</td>
+            </tr>
+            <tr>
+                <td>Peter Wafula</td>
+                <td>peter@gmail.com</td>
+                <td>Male</td>
+                <td>Kisumu</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+print('Please enter your age age: ')
+user1age = int(input())
+print(user1age)
+# user2age = int(input("Please enter your age: "))
+# print(user2age)
+# user3age= int(input("Please enter your age: "))
+# print(user3age)
+# user4age = int(input("Please enter your age: "))
+# print(user4age)
+# user5age = int(input("Please enter your age: "))
+# print(user5age)
+
+#
+# print(user1age>user2age and user3age<user4age)
+# print(user1age<user2age and user3age>user4age)
+# print(user1age>user2age and user3age>user4age)
+#
+# print(user1age>user2age or user3age<user4age)
+# print(user1age<user2age or user3age>user4age)
+# print(not(user1age>user2age or user3age>user4age))
